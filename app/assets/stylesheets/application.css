@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .logo{
+    height:80px;
+    width: 95px;
+ }
+
+ .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+ .item{
+    display: flex;
+ }
+.aboutinfo{
+   color: white;
+   font-size: small;
+   width: 250px;
+}
+
+ .itemone{
+    width: 200px;
+    height: 200px;
+ }
+
+ .itemtwo{
+    width: 200px;
+    height: 200px;
+ }
+
+ .history{
+   display: flex;
+   height: 100vh;
+   flex-wrap: wrap;
+   overflow: auto;
+   justify-content: center;
+   align-items: center;
+   background-image: url(https://anchorfloors.com/wp-content/uploads/2020/03/flooring_slider1.png);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   margin-top: 0;
+   
+ }
+
+ .info{
+   
+   color: white;
+   display: flex;
+   height: 80vh;
+   flex-wrap: wrap;
+   overflow: auto;
+   justify-content: center;
+   align-items: center;
+
+   width: 80vw;
+   background-color: rgba(0, 0, 0, 0.7);
+ }
+
+ .insideinfo{
+   display: flex;
+   align-items: center;
+
+ }
+
+
+ .carousel{
+   height:100vh
+ }
+
+ img{
+   height: 100vh;
+ }
+
+ .introduction{
+   color: rgb(45, 45, 217);
+   font-size: 55px;
+   margin-bottom: 4em;
+ }
